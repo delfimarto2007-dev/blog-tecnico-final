@@ -31,3 +31,5 @@ Aprendí la importancia de documentar configuraciones técnicas de forma clara y
 Utilicé GitHub para registrar cambios y organizar la documentación del proyecto.
 ## Feedback radicalmente sincero
 Recibí feedback relacionado con el exceso de lenguaje técnico. A partir de eso, simplifiqué explicaciones para que personas no técnicas pudieran entender mejor el problema y la solución
+## Reflexión final
+La experiencia me permitió comprender la importancia de comunicar problemas técnicos con claridad y mantener una documentación organizada para futuros proyectos.
