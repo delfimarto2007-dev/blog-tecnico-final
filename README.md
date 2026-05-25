@@ -1,35 +1,90 @@
-# Post-Mortem: Problema de sincronización entre Instagram y Facebook en Meta Business Suite
+# Blog Técnico – Resolución de Problema en Meta Business Suite
+
 ## Contexto
-Estaba configurando las redes sociales de un emprendimiento artesanal para administrar publicaciones y mensajes desde Meta Business Suite. El objetivo era conectar correctamente Instagram y Facebook para centralizar la gestión del contenido y automatizaciones.
+
+Durante el desarrollo de contenido para redes sociales, surgió un problema de sincronización entre Instagram y Facebook dentro de Meta Business Suite. Esto dificultaba la administración centralizada de publicaciones, afectando la organización y programación de contenido digital.
+
+El objetivo fue analizar el incidente, documentar el proceso de resolución y aplicar buenas prácticas de control de versiones utilizando GitHub.
+
+---
+
 ## Problema
-Durante la configuración, Instagram aparecía conectado parcialmente, pero Facebook no sincronizaba correctamente con la cuenta comercial. Esto impedía administrar mensajes, respuestas automáticas y publicaciones desde una sola plataforma.
-Además, algunas funciones aparecían deshabilitadas y Meta mostraba errores de permisos y vinculación.
-## Acciones tomadas
-### Diagnóstico inicial
-- Revisé permisos de administrador.
-- Verifiqué que Instagram fuera una cuenta profesional.
-- Confirmé la vinculación entre Instagram y Facebook.
-### Resolución
-- Eliminé conexiones incorrectas.
-- Volví a conectar Facebook desde Meta Business Suite.
-- Sincronicé nuevamente Instagram.
-- Revisé permisos comerciales.
-## Post-Mortem Constructivo
-### Causa raíz
-La vinculación inicial se había realizado desde una cuenta personal y no desde el administrador comercial correcto.
-### Impacto
-- Pérdida de tiempo en configuración.
-- Imposibilidad de administrar mensajes.
-- Retraso en automatizaciones.
-### Prevención futura
-- Verificar permisos antes de comenzar.
-- Confirmar el administrador principal.
-- Documentar el proceso paso a paso.
+
+El sistema presentaba errores al intentar vincular correctamente una cuenta de Instagram con Facebook dentro de Meta Business Suite.
+
+Como consecuencia:
+
+- Las publicaciones no se sincronizaban.
+- No era posible programar contenido correctamente.
+- Se generaban problemas de acceso y permisos.
+- La administración manual aumentaba el tiempo de trabajo.
+
+Tras investigar el problema, se detectó que existían inconsistencias en la configuración de permisos y en la conexión entre ambas plataformas.
+
+---
+
+## Acciones Tomadas
+
+Para resolver el problema se siguió un proceso organizado:
+
+### 1. Identificación del error
+
+Se revisaron configuraciones de Meta Business Suite, permisos de administrador y estado de vinculación entre cuentas.
+
+### 2. Corrección de configuraciones
+
+Se actualizaron permisos y configuraciones de conexión para permitir la sincronización correcta entre Instagram y Facebook.
+
+### 3. Documentación técnica
+
+Todo el proceso fue documentado dentro de este repositorio utilizando GitHub como sistema de control de versiones.
+
+---
+
+## Post-mortem Constructivo
+
+El análisis posterior permitió identificar que el problema no se debía únicamente a la plataforma, sino también a la falta de verificación previa de permisos y configuraciones.
+
+En lugar de buscar culpables, el enfoque estuvo en detectar mejoras para evitar futuros incidentes similares.
+
+Como resultado:
+
+- Se incorporó una revisión previa de permisos.
+- Se mejoró la organización de cuentas.
+- Se documentó el procedimiento para futuras referencias.
+
+---
+
+## Control de Versiones
+
+Durante el proyecto se utilizaron commits para registrar cambios y avances importantes.
+
+Ejemplos:
+
+- `feat: creación inicial del repositorio`
+- `docs: actualización del README`
+- `fix: corrección de errores de sincronización`
+- `chore: publicación final del blog técnico`
+
+Repositorio público:
+https://github.com/delfimarto2007-dev/blog-tecnico-meta-business-suite
+
+---
+
 ## Aprendizajes
-Aprendí la importancia de documentar configuraciones técnicas de forma clara y accesible. También comprendí que muchos problemas técnicos están relacionados con permisos y configuraciones incorrectas.
-## Control de versiones
-Utilicé GitHub para registrar cambios y organizar la documentación del proyecto.
-## Feedback radicalmente sincero
-Recibí feedback relacionado con el exceso de lenguaje técnico. A partir de eso, simplifiqué explicaciones para que personas no técnicas pudieran entender mejor el problema y la solución
-## Reflexión final
-La experiencia me permitió comprender la importancia de comunicar problemas técnicos con claridad y mantener una documentación organizada para futuros proyectos.
+
+Este proyecto permitió comprender la importancia de:
+
+- La documentación técnica clara.
+- El análisis post-mortem constructivo.
+- El uso de GitHub para control de versiones.
+- La organización de procesos técnicos.
+- La comunicación clara para audiencias técnicas y no técnicas.
+
+---
+
+## Reflexión sobre Feedback Radicalmente Sincero
+
+Durante el desarrollo del proyecto se aplicó feedback sincero y constructivo para identificar errores y mejorar el proceso de resolución.
+
+La comunicación directa permitió detectar problemas rápidamente y encontrar soluciones de manera más eficiente, manteniendo siempre un enfoque orientado al aprendizaje y mejora continua.
